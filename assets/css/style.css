@@ -1,0 +1,250 @@
+/* ALIGNMENT */
+
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+
+.text-align input[type=text]{
+
+	text-align: right;
+}
+
+/* PLACEHOLDER */
+
+::-webkit-input-placeholder {
+	text-align: right;
+}
+:-moz-placeholder {
+	text-align: right;
+}
+:-ms-input-placeholder {
+	text-align: right;
+}
+
+
+.three-digit{
+	width: 80px;
+}
+
+/* IMAGE */
+
+.thumbnail {
+	width: 40px;
+	height: 40px;
+}
+
+/* UTILITY */
+
+#hidden {
+	display: none;
+}
+
+/* TEXT PROPTERTIES */
+
+.loan_info {
+	font-size: 1.2em;
+	padding-left: 10px;
+	
+}
+
+
+.table-input input[type="number"] {
+     
+    background: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    outline: none !important;
+	width: 70px;
+	padding-left: 15px;
+	font-weight: bold;
+	line-height: 2em;
+	font-size: 1.2em;
+	margin-right: -50px;
+
+        /* Other stuff: font-weight, font-size */
+}
+
+.fit-size {
+	font-size: 1.15em;
+}
+
+.print-table table, th {
+    width: 880px;
+    vertical-align: middle;
+    text-align: center;
+    color: #0c0c0c;
+
+
+}
+.disclosure {
+    width: 880px;
+    text-align: justify;
+    color: #0c0c0c;
+
+}
+
+
+.absolute-center{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.border-thick{
+    border: 2px solid #000000;
+}
+
+.border-thin{
+    border: 1px solid #000000;
+}
+
+.no-border {
+
+    border: 0;
+}
+
+.sum-border {
+
+    border-left: 0;
+
+
+}
+
+
+
+.header-table {
+
+    margin-bottom: 1.5em;
+}
+
+.header-table-1 {
+
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+}
+
+.body-table {
+    margin-bottom: 3em;
+}
+
+.t-heading{
+
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.company-title{
+
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer-table td {
+    height: 80px;
+    text-align: left;
+    vertical-align: bottom;
+    margin-bottom: 3em;
+}
+.footer-table {
+    margin-bottom: 3em;
+
+}
+.footer-table td {
+    padding-left: 10px;
+}
+
+.print-table table, .disclosure{
+   margin-left: auto;
+    margin-right: auto;
+}
+
+.print-table table {
+    margin-top: 3em;
+}
+
+.pledgor th, .item-display th.heading {
+    background-color: #a3a3a3;
+}
+
+.big-txt{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.big-txt-2{
+    font-size: 2em;
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+}
+
+.table-align-left th{
+    text-align: left;
+}
+
+.table-align-center td{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.table-padding-left td {
+
+    padding-left: 10px;
+}
+
+.table-padding-right{
+
+    padding-right: 10px;
+}
+
+.loading {
+    display: none;
+}
+
+@media print {
+    html, body {
+        width: 8.5in;
+        height: 11in;
+    }
+
+    .print-table {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+        width: 9in;
+    }
+
+    .print-table table, th {
+        width: 8.5in;
+
+    }
+
+    span.pointer:hover {
+        cursor: pointer;
+    }
+
+    span.loading {
+        display: none;
+    }
+}
+
+/* checkbox size */
+
+.checkbox-size {
+    height: 60px !important;
+    width: 60px !important;
+}
